@@ -1,6 +1,6 @@
 {
   "name": "knockout-magic-textarea",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simple knockout binding for magical auto-sizing textarea heights.",
   "main": "knockout.magic.textarea.js",
   "keywords": [
