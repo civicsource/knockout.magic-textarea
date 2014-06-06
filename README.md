@@ -1,4 +1,4 @@
-#Knockout Bootstrap Modal Binding
+#Knockout Magic Textarea
 
 > A simple knockout binding for textareas which automagically adjust their height based on content.
 
