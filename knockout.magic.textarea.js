@@ -13,7 +13,8 @@
 
 			$element.on('keydown keyup input paste propertychange click submit mouseenter', function(){
 				element.style.height = "auto";
-				$element.height(16 + (element.scrollHeight - element.clientHeight));
+				var newHeight = element.scrollHeight + parseInt(window.getComputedStyle(element)["padding-top"]) + parseInt(window.getComputedStyle(element)["padding-bottom"]);
+				$element.outerHeight(newHeight);
 			});
 		}
 	};
