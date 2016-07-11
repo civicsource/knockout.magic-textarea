@@ -1,0 +1,31 @@
+{
+  "name": "knockout.magic-textarea",
+  "version": "2.0.0",
+  "description": "Simple knockout binding for magical auto-sizing textareas.",
+  "main": "knockout.magic-textarea.js",
+  "scripts": {
+    "lint": "eslint . --format=unix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/civicsource/knockout.magic-textarea.git"
+  },
+  "keywords": [
+    "knockout",
+    "textarea",
+    "automatic",
+    "resize"
+  ],
+  "author": "CivicSource",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/civicsource/knockout.magic-textarea/issues"
+  },
+  "homepage": "https://github.com/civicsource/knockout.magic-textarea#readme",
+  "peerDependencies": {
+      "knockout": "3.x"
+  },
+  "dependencies": {
+      "jquery": ">=1.10"
+  }
+}
